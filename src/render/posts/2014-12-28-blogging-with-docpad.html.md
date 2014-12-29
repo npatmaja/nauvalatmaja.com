@@ -32,7 +32,8 @@ docpad and its source hosted on github. Then, I found
 [Erv Walter's blog](http://www.ewal.net) which satisfied my 
 requirements: simple and clean. So I cloned the blog's repository
 and adapted it to the skeleton I used and did some minor changes, 
-and _voila_ here it is. Lastly, to push the blog to github I
-used [GitHub pages plugin](https://docpad.org/plugin/ghpages).
+and _voila_ here it is. Lastly, I
+used [GitHub pages plugin](https://docpad.org/plugin/ghpages)
+to [push the blog to github](http://seethroughtrees.github.io/posts/github-pages-with-docpad/).
 
 [skeletons]: /images/docpad-run-skeleton.png

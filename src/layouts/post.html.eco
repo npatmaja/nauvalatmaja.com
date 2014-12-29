@@ -24,7 +24,7 @@ layout: default
                 <% end %>
               <% end %>
             </div>
-            <!-- <%- @partial('disqus') if @document.comments and @disqusShortName %> -->
+            <%- @partial('disqus') if @document.comments and @disqusShortName %>
             <%- @partial('me') %>
         </div>
     </div>

@@ -36,6 +36,7 @@
     "docpad-plugin-coffeescript": "2.x",
     "docpad-plugin-eco": "~2.1.0",
     "docpad-plugin-ghpages": "~2.4.3",
+    "docpad-plugin-highlightjs": "~2.3.0",
     "docpad-plugin-jade": "2.x",
     "docpad-plugin-less": "2.x",
     "docpad-plugin-marked": "2.x",

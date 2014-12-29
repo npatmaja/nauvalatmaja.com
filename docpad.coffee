@@ -100,7 +100,7 @@ docpadConfig =
     moment: require('moment')
 
     # Discus.com settings
-    disqusShortName: 'justabite'
+    disqusShortName: 'nauvalatmaja'
 
     # Google+ settings
     googlePlusId: ''
@@ -177,6 +177,8 @@ docpadConfig =
     cleanurls:
       trailingSlashes: true
       collectionName: 'cleanurls'
+    highlightjs:
+        replaceTab: 2
 
 # Export our DocPad Configuration
 module.exports = docpadConfig

@@ -23,16 +23,17 @@ code {
 // Blocks of code
 pre {
   display: block;
-  padding: ((@line-height-computed - 1) / 2);
-  //margin: 0 0 (@line-height-computed / 2);
+  // padding: ((@line-height-computed - 1) / 2);
+  // margin: 0 0 (@line-height-computed / 2);
   margin: 20px 0;
-  font-size: (@font-size-base - 1); // 14px to 13px
+  padding: 0;
+  font-size: (@font-size-base - 2); // 14px to 13px
   line-height: @line-height-base;
-  color: @pre-color;
-  background-color: #f8f8f8;
+  // color: @pre-color;
+  // background-color: #f8f8f8;
   border: 1px solid @pre-border-color;
-  //border-radius: @border-radius-base;
-  border-radius: inherit;
+  border-radius: @border-radius-base;
+  // border-radius: 4px;
 
   // Make prettyprint styles more spaced out for readability
   &.prettyprint, &.highlighted {
@@ -41,7 +42,7 @@ pre {
 
   // Account for some code outputs that place code tags in pre tags
   code {
-    padding: 0;
+    padding: 0 5px;
     font-size: inherit;
     color: inherit;
     background-color: transparent;
@@ -169,7 +170,7 @@ pre .xml .javascript,
 pre .xml .vbscript,
 pre .xml .css,
 pre .xml .cdata {
-  opacity: 0.5;
+  // opacity: 0.5;
 }
 
 /* --- */
