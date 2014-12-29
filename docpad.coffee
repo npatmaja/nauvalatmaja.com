@@ -1,5 +1,7 @@
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
+cheerio = require('cheerio')
+url = require('url')
 docpadConfig =
 
   # Template Data
@@ -12,7 +14,9 @@ docpadConfig =
     # Specify some site properties
     site:
       # The production url of our website
-      url: "http://website.com"
+      url: "http://atmaja.com"
+
+      cleanUrl: "www.atmaja.com"
 
       # Here are some old site urls that you would like to redirect from
       oldUrls: [
@@ -21,26 +25,28 @@ docpadConfig =
       ]
 
       # The default title of our website
-      title: "Your Website"
+      title: "nauval atmaja"
 
       # The website description (for SEO)
       description: """
-        When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+        A place to share my thought about some teechies
         """
 
       # The website keywords (for SEO) separated by commas
       keywords: """
-        place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+        software, engineering, software engineering, architecture, software architecture, programming, thought, javascript, node.js,
+        ruby on rails, java, HTML, code, hack, tips, trick, *nix, OSX
         """
 
       # The website author's name
-      author: "Your Name"
+      author: "Nauval Atmaja"
 
       # The website author's email
-      email: "your@email.com"
+      email: "nauval@atmaja.com"
 
       # Your company's name
-      copyright: "© Your Company 2013"
+      copyright: "© Nauval Atmaja 2014"
+
 
 
     # Helper Functions
@@ -67,6 +73,45 @@ docpadConfig =
       # Merge the document keywords with the site keywords
       @site.keywords.concat(@document.keywords or []).join(', ')
 
+    getPageUrlWithHostname: ->
+      "#{@site.url}#{@document.url}"
+
+    getIdForDocument: (document) ->
+      hostname = url.parse(@site.url).hostname
+      date = document.date.toISOString().split('T')[0]
+      path = document.url
+      "tag:#{hostname},#{date},#{path}"
+
+    fixLinks: (content) ->
+      baseUrl = @site.url
+      regex = /^(http|https|ftp|mailto):/
+
+      $ = cheerio.load(content)
+      $('img').each ->
+        $img = $(@)
+        src = $img.attr('src')
+        $img.attr('src', baseUrl + src) unless regex.test(src)
+      $('a').each ->
+        $a = $(@)
+        href = $a.attr('href')
+        $a.attr('href', baseUrl + href) unless regex.test(href)
+      $.html()
+
+    moment: require('moment')
+
+    # Discus.com settings
+    disqusShortName: 'justabite'
+
+    # Google+ settings
+    googlePlusId: ''
+
+    twitter: "http://twitter.com/novalpas"
+
+    github: "https://github.com/npatmaja"
+
+    getTagUrl: (tag) ->
+      slug = tag.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '')
+      "/tags/#{slug}/"
 
   # Collections
   # ===========
@@ -81,6 +126,8 @@ docpadConfig =
     posts: (database) ->
       database.findAllLive({relativeOutDirPath:'posts'},[date:-1])
 
+    cleanurls: ->
+      @getCollection('html').findAllLive(skipCleanUrls: $ne: true)
 
   # DocPad Events
   # =============
@@ -110,6 +157,26 @@ docpadConfig =
         else
           next()
 
+  plugins:
+    tags:
+      findCollectionName: 'posts'
+      extension: '.html'
+      injectDocumentHelper: (document) ->
+        document.setMeta(
+          layout: 'tags'
+        )
+    dateurls:
+      cleanurl: true
+      trailingSlashes: true
+      keepOriginalUrls: false
+      collectionName: 'posts'
+      dateIncludesTime: true
+    paged:
+      cleanurl: true
+      startingPageNumber: 2
+    cleanurls:
+      trailingSlashes: true
+      collectionName: 'cleanurls'
 
 # Export our DocPad Configuration
 module.exports = docpadConfig

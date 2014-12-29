@@ -3,10 +3,10 @@
 
 
 /* TEAM */
-  <your title>: <your name>
+  <your title>: Nauval Panca Atmaja
   Site:
-  Twitter:
-  Location:
+  Twitter: @novalpas
+  Location: Jombang, Jawa Timur, Indonesia
 
 /* THANKS */
   Names (& URL):

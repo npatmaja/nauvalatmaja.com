@@ -20,28 +20,33 @@
   "bugs": {
     "url": "https://github.com/docpad/twitter-bootstrap.docpad/issues"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/docpad/twitter-bootstrap.docpad.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/docpad/twitter-bootstrap.docpad.git"
   },
-  "engines" : {
+  "engines": {
     "node": "0.10.x",
     "npm": "1.4.x"
   },
   "dependencies": {
+    "bower": "~1",
+    "cheerio": "^0.13.1",
     "docpad": "6.x",
-    "docpad-plugin-cleanurls": "2.x",
+    "docpad-plugin-cleanurls": "~2.7.0",
     "docpad-plugin-coffeescript": "2.x",
-    "docpad-plugin-eco": "2.x",
+    "docpad-plugin-eco": "~2.1.0",
+    "docpad-plugin-ghpages": "~2.4.3",
+    "docpad-plugin-jade": "2.x",
     "docpad-plugin-less": "2.x",
     "docpad-plugin-marked": "2.x",
-    "docpad-plugin-partials": "2.x",
-    "docpad-plugin-stylus": "2.x",
-    "docpad-plugin-text": "2.x",
-    "docpad-plugin-jade": "2.x",
+    "docpad-plugin-paged": "~2.2.5",
+    "docpad-plugin-partials": "~2.9.1",
     "docpad-plugin-related": "2.x",
+    "docpad-plugin-stylus": "2.x",
+    "docpad-plugin-tags": "~2.0.7",
+    "docpad-plugin-text": "2.x",
     "marked": "*",
-    "bower": "~1"
+    "moment": "^2.8.4"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "2.x",
