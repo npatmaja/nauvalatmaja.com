@@ -179,6 +179,9 @@ docpadConfig =
       collectionName: 'cleanurls'
     highlightjs:
         replaceTab: 2
+    ghpages:
+      deployBranch: 'master'
+      deployRemote: 'pages'
 
 # Export our DocPad Configuration
 module.exports = docpadConfig
