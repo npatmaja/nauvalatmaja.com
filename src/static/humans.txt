@@ -4,7 +4,7 @@
 
 /* TEAM */
   <your title>: Nauval Panca Atmaja
-  Site:
+  Site: nauvalatmaja.com
   Twitter: @novalpas
   Location: Jombang, Jawa Timur, Indonesia
 
