@@ -11,6 +11,11 @@ cacheable: false
     <div class="post-content">
         <%- @content %>
     </div>
+    <% if @individualPost: %>
+        <div class="twitter-share">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-via="novalpas" data-count="none">Tweet</a>
+        </div>
+    <% end %>
     <% if @tags?: %>
         <div class="post-tags">
             Posted In: <%- @partial('tags', { tags: @tags }) %> 
