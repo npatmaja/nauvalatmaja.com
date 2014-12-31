@@ -14,14 +14,13 @@ docpadConfig =
     # Specify some site properties
     site:
       # The production url of our website
-      url: "http://atmaja.com"
+      url: "http://nauvalatmaja.com"
 
-      cleanUrl: "www.atmaja.com"
+      cleanUrl: "www.nauvalatmaja.com"
 
       # Here are some old site urls that you would like to redirect from
       oldUrls: [
-        'www.website.com',
-        'website.herokuapp.com'
+        
       ]
 
       # The default title of our website
@@ -103,7 +102,7 @@ docpadConfig =
     disqusShortName: 'nauvalatmaja'
 
     # Google+ settings
-    googlePlusId: ''
+    googlePlusId: '112846605467404730226'
 
     twitter: "http://twitter.com/novalpas"
 

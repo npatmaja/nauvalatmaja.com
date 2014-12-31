@@ -12,7 +12,7 @@ cacheable: false
         <%- @content %>
     </div>
     <% if @individualPost: %>
-        <%- @partial('tweet', { title: @title, tags: @tags, url: @url }) %>
+        <%- @partial('tweet', { title: @title, tags: @tags, siteUrl: @site.url, url: @url }) %>
     <% end %>
     <% if @tags?: %>
         <div class="post-tags">

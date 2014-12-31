@@ -49,7 +49,7 @@
 </head>
 <body>
 <% if @googlePlusId: %>
-<a href="https://plus.google.com/103974853049200513652?rel=author" class="google googleplus-hidden" title="Google+">Google+</a>
+<a href="https://plus.google.com/<%= @googlePlusId %>?rel=author" class="google googleplus-hidden" title="Google+">Google+</a>
 <% end %>
 <div class="navbar navbar-default navbar-static-top navbar-shadow">
     <div class="container">
