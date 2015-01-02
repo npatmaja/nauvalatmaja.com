@@ -28,7 +28,7 @@ docpadConfig =
 
       # The website description (for SEO)
       description: """
-        A place to share my thought about some teechies
+        Nauval Atmaja's personal notes on software development and all that
         """
 
       # The website keywords (for SEO) separated by commas
@@ -41,7 +41,7 @@ docpadConfig =
       author: "Nauval Atmaja"
 
       # The website author's email
-      email: "nauval@atmaja.com"
+      email: "nauval.atmaja@gmail.com"
 
       # Your company's name
       copyright: "© Nauval Atmaja 2014"
@@ -104,7 +104,7 @@ docpadConfig =
     # Google+ settings
     googlePlusId: '112846605467404730226'
 
-    twitter: "http://twitter.com/novalpas"
+    twitter: "https://twitter.com/novalpas"
 
     github: "https://github.com/npatmaja"
 
