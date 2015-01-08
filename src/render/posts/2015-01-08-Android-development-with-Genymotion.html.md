@@ -24,13 +24,13 @@ stock emulator called [Genymotion][link:genymotion]. It runs
 on top of [VirtualBox][link:virtualbox], in other words, each android
 virtual device is an virtual machine in VirtualBox. To use Genymotion
 I have to register in the first place (the free account is sufficient for me) 
-and then [downloaded and install the application][link:installation]. 
-After that, I need to create the virtual device
+and then [downloaded and installed the application][link:installation]. 
+Following that, I created a virtual device of my liking
 in the Genymotion application. 
 As I use Eclipse Android Development Tools, I then installed 
 [eclipse plugin for Genymotion][link:eclipse-plugin]. A plugin for 
-Android Studio is also available in the Genymotion's website. Restart Eclipse and 
-all is ready. A note, you need to install VirtualBox to use Genymotion, 
+Android Studio is also available in the Genymotion's website. Restarted Eclipse and 
+all was ready. A note, you need to install VirtualBox to use Genymotion, 
 otherwise it will complain about can not starting virtualization or 
 something.
 
