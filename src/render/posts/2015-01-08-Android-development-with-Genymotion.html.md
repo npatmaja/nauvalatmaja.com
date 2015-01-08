@@ -13,7 +13,7 @@ but it is sufficient), the app deployment takes too much time,
 moreover, the interaction is sluggish. Hence, it is a no go.
 
 Up to now, I used my own android phone to test my app. It is fast,
-quite responsive, but I the downside is I need my phone connected
+quite responsive, but the downside is I need to connect my phone
 to my laptop when I work on the app. Not to mention when I can't find
 my USB cable, disaster. 
 
