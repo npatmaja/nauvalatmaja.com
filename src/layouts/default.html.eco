@@ -31,12 +31,6 @@
     <!-- <link rel="apple-touch-icon-precomposed" sizes="128x128" href="icon/icon-128.png"> -->
     <link href="/ico/favicon.ico" rel="shortcut icon">
 
-    <style>
-        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-            display: none !important;
-        }
-    </style>
-
     <!-- Bootstrap -->
     <link href="/styles/site.css?<%= @site.timestamp %>" rel="stylesheet" media="screen">
     <link rel="stylesheet" type="text/css" href="/vendor/rainbow.css">
@@ -76,6 +70,7 @@
                     <a href="/feed.xml" class="rss"><span class="icon icon-feed"></span></a>
                     <a href="<%= @twitter %>" class="twitter"><span class="icon icon-twitter"></span></a>
                     <a href="<%= @github %>" class="github"><span class="icon icon-github"></span></a>
+                    <a href="<%= @linkedin %>" class="linkedin"><span class="icon icon-linkedin"></span></a>
                 </li>
             </ul>
             <form class="navbar-form navbar-right hidden-xs" role="search" action="http://google.com/search"
@@ -98,6 +93,7 @@
 
 <%- @getBlock('scripts').toHTML() %>
 <script src="/vendor/jquery/dist/jquery.js"></script>
+<script src="/vendor/mermaid.full.min.js"></script>
 <script src="/vendor/components-bootstrap/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/coffee-script/1.6.3/coffee-script.min.js"></script>
