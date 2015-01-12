@@ -1,3 +1,5 @@
+@font-default: 'trebuchet ms', verdana, arial;
+
 // Sequence Diagram
 .actor {
     stroke: #CCCCFF;
@@ -34,7 +36,7 @@ text.actor {
 .messageText {
     fill:black;
     stroke:none;
-    font-family: 'trebuchet ms', verdana, arial;
+    font-family: @font-default;
     font-size:14px;
 }
 
@@ -46,13 +48,13 @@ text.actor {
 .labelText {
     fill:black;
     stroke:none;
-    font-family: 'trebuchet ms', verdana, arial;
+    font-family: @font-default;
 }
 
 .loopText {
     fill:black;
     stroke:none;
-    font-family: 'trebuchet ms', verdana, arial;
+    font-family: @font-default;
 }
 
 .loopLine {
@@ -62,7 +64,7 @@ text.actor {
     stroke: #CCCCFF;
 }
 
-.note {
+.note, .cluster {
     stroke: #decc93;
     stroke: #CCCCFF;
     fill: #fff5ad;
@@ -71,14 +73,14 @@ text.actor {
 .noteText {
     fill:black;
     stroke:none;
-    font-family: 'trebuchet ms', verdana, arial;
+    font-family: @font-default;
     font-size:14px;
 }
 
 // Flowchart
 g.label {
     color: black;
-    font-family: 'trebuchet ms', verdana, arial;
+    font-family: @font-default;
     font-size: 14px;
     font-weight: normal;
 }
