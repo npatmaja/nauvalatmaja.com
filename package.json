@@ -34,6 +34,7 @@
     "docpad": "6.x",
     "docpad-plugin-cleanurls": "~2.7.0",
     "docpad-plugin-coffeescript": "2.x",
+    "docpad-plugin-dateurls": "^2.4.0",
     "docpad-plugin-eco": "~2.1.0",
     "docpad-plugin-ghpages": "~2.4.3",
     "docpad-plugin-highlightjs": "~2.3.0",

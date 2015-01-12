@@ -5,4 +5,6 @@ out/
 *.iml
 src/files/vendor/components-bootstrap
 src/files/vendor/jquery
+src/files/vendor
 .docpad.db
+
