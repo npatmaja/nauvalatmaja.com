@@ -122,11 +122,19 @@ docpadConfig =
       database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 
     # This one, will fetch in all documents that will be outputted to the posts directory
-    posts: (database) ->
-      database.findAllLive({relativeOutDirPath:'posts'},[date:-1])
+    # posts: (database) ->
+    #   database.findAllLive({relativeOutDirPath:'posts'},[date:-1])
+    posts: ->
+      @getCollection('documents').findAllLive({relativeDirPath: 'posts'}, [date: -1])
 
     cleanurls: ->
       @getCollection('html').findAllLive(skipCleanUrls: $ne: true)
+
+  environments:
+    development:
+      collections:
+        posts: ->
+          @getCollection('documents').findAllLive({relativeDirPath: {'$in' : ['posts', 'drafts']}}, [relativeDirPath: 1,  date: -1])
 
   # DocPad Events
   # =============
