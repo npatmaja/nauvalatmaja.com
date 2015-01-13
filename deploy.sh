@@ -32,7 +32,7 @@ rm -rf posts/
 touch .nojekyll
 
 # add and push to github pages
-git add -A --force
+git add -A
 git commit -m "`date`"
 git push -f origin master
 
