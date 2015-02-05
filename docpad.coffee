@@ -44,7 +44,8 @@ docpadConfig =
       email: "nauval.atmaja@gmail.com"
 
       # Your company's name
-      copyright: "© Nauval Atmaja 2014"
+      copyright: () ->
+        "© Nauval Atmaja 2014 - #{(new Date).getFullYear()}"
 
 
 

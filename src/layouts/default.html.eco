@@ -87,7 +87,7 @@
 <%- @content %>
 <div class="container">
     <div class="navbar navbar-footer">
-        <p class="navbar-center navbar-text"><%= @site.copyright %></p>
+        <p class="navbar-center navbar-text"><%= @site.copyright() %></p>
     </div>
 </div>
 
