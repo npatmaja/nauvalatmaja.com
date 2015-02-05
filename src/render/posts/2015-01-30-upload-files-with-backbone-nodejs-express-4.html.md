@@ -117,6 +117,14 @@ app.ThumbnailView = Backbone.View.extend({
 });
 ```
 
+In details, when a user has selected a cover image, the `'change #coverImageUpload': 'renderThumb'` 
+event will be triggered. To add a bit context, `#coverImageUpload` is the id of the `<input type="file">`
+to upload a file and `renderThumb` is the function will be executed as the event's callback. In the
+function, whenever a user selected a picture, the view will get the selected file and read the file
+as data URL through `FileReader.readAsDataURL` function. When the particular function is executed,
+it triggers `FileReader`'s `onload` event with the result of the data reading process as its callback's
+parameter, which is used as the image source of the `<img>` element as shown in the listing above.
+
 The uploading part was a bit tricky. I used Backbone View's event to make sure
 that the newly added book has the right cover image. The way to do this is to
 make sure when a user clicks the __add book button__, the cover image
@@ -156,4 +164,6 @@ app.LibraryView = Backbone.View.extend({
 }
 ```
 
-And that's all folks! The complete solution can be seen [here](https://github.com/npatmaja/library).
+And that's all folks! I hope this tutorial could be a help for someone who looks for the solution
+for the exercise. Please see the [project's repository](https://github.com/npatmaja/library) 
+for the complete solution.
