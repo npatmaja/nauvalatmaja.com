@@ -18,6 +18,8 @@ manually without installing Jekyll locally, which was proven to be a
 hard thing to do. Later, I had to postponed the project
 due to some higher priority activities until recent time.
 
+<!-- Read more -->
+
 As I am now re-learning javascript and node.js, I searched about static 
 blogging with node.js to pick this blog project up once again, with a resolution 
 to make it online. And that was how I came accross
@@ -25,7 +27,7 @@ to make it online. And that was how I came accross
 using node.js. Similar to Jekyll, it can render markdown files to 
 bunch of static htmls. Surprisingly, to build a blog using docpad wasn't hard 
 thing to do. There were skeletons that you can choose
-to bootstrap your blog when you first run `docpad run`.
+to bootstrap your blog when you run `docpad run` for the first time.
 
 ![docpad skeletons][skeletons]
 

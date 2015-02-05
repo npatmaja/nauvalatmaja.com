@@ -10,7 +10,23 @@ pagePathPrefix: page
 ---
 
 <% for document in @getCollection('posts').toJSON()[@document.page.startIdx...@document.page.endIdx]: %>
-    <%- @partial('post', {title: document.title, url: document.url, tags: document.tags, date: document.date, content: document.contentRenderedWithoutLayouts }) %>
+    <article id="post" class="post">
+      <h1><a href='<%= document.url %>'><%= document.title %></a></h1>
+      <div class="post-date"><%=  @moment(document.date).format('MMM Do, YYYY') %></div>
+      <div class="post-content">
+        <%- @getCuttedContent(String(document.contentRenderedWithoutLayouts)) %>
+      </div>
+      <% if @hasReadMore(String(document.contentRenderedWithoutLayouts)): %>
+        <div class="read-more">
+          <a href='<%= document.url %>'>Continue reading <span class="icon icon-arrow-right-2"></a>
+        </div>
+      <% end %>
+      <% if document.tags?: %>
+        <div class="post-tags">
+          Posted In: <%- @partial('tags', { tags: document.tags }) %> 
+        </div>
+      <% end %>
+    </article>
 <% end %>
 
 <div class="page-nav">

@@ -41,6 +41,8 @@ To better visualize, lets see this picture:
 
 ![Application view][pic:app-view]
 
+<!-- Read more -->
+
 The outer container is `#application` and inside it there are
 two other sub-containers `#login` and `#online-users`. Each container
 or sub-container is represented in a separated view: `AppView`, `LoginView`

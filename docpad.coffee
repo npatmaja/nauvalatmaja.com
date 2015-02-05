@@ -115,6 +115,16 @@ docpadConfig =
       slug = tag.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '')
       "/tags/#{slug}/"
 
+    getCuttedContent: (content) ->
+      i = content.search('<!-- Read more -->')
+      if i >= 0
+        content[0..i-1]
+      else
+        content
+
+    hasReadMore: (content) ->
+      content.search('<!-- Read more -->') >= 0
+
   # Collections
   # ===========
   # These are special collections that our website makes available to us

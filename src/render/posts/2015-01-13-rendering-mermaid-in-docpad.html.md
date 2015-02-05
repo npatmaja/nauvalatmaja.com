@@ -27,6 +27,8 @@ understand how DocPad's plugin tester works. Thanks to [this awesome post](http:
 I could finally write and pass the test. The working version of my fork
 can be found [at my GitHub](https://github.com/npatmaja/docpad-plugin-marked).
 
+<!-- Read more -->
+
 To use the forked plugin, change the dependency definition in `package.json`:
 
 ```json

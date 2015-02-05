@@ -19,6 +19,8 @@ my USB cable, disaster.
 
 ![Genymotion in action][pic:genymotion]
 
+<!-- Read more -->
+
 Fortunately, there is an alternative to android 
 stock emulator called [Genymotion][link:genymotion]. It runs
 on top of [VirtualBox][link:virtualbox], in other words, each android

@@ -26,6 +26,7 @@ There are two additional requirements for the upload book's cover features:
   to add a new book. This signifies that the displaying the cover's
   preview should not upload to image file to the server.
 
+<!-- Read more -->
 
 # Problems
 After browsing for awhile, I found [a blog post to upload file asynchronously using Node.js and express](http://markdawson.tumblr.com/post/18359176420/asynchronous-file-uploading-using-express-and), which was good
