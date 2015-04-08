@@ -3,7 +3,7 @@ cacheable: false
 ---
 <article id="post" class="post">
     <% if @individualPost: %>
-        <h1><%= @title %></h1>
+        <h1 class="title"><%= @title %></h1>
     <% else: %>
         <h1><a href='<%= @url %>'><%= @title %></a></h1>
     <% end %>
