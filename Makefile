@@ -7,3 +7,5 @@ build:
 	hugo -t redlounge
 post:
 	hugo new post/${CURR_DATE}-${title}.md
+serve:
+	hugo server -w --buildDrafts -t=redlounge --ignoreCache
