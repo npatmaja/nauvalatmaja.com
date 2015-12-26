@@ -78,7 +78,8 @@ html, p, nav, section, article {
 
 /* TOC */
 #TableOfContents ul {
-  padding: 0px 0 0 20px; }
+  padding: 0 0 0 0.8rem;
+  margin: .2rem; }
 
 .section #list {
   list-style: none;
@@ -151,7 +152,8 @@ section.aboutme {
   .paging .paging-newer {
     display: inline-block; }
   .paging .paging-newer, .paging .paging-older {
-    width: 50% !important; }
+    width: 50% !important;
+    margin: 2rem 0; }
   .paging .paging-older {
     display: inline-block;
     float: left; } }
@@ -172,6 +174,10 @@ section.aboutme {
 
   /* Atuthor */
   .aboutme img {
-    display: none; } }
+    display: none; }
+
+  /* Pagination */
+  .paging .paging-newer, .paging .paging-older {
+    margin-bottom: .5rem; } }
 
 /*# sourceMappingURL=custom.css.map */
