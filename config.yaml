@@ -9,6 +9,7 @@ permalinks:
   post: /:year/:month/:day/:title/
 params:
   sidebartitle: "nauval atmaja"
+  sidebartagline: "Thoughts on software, product, technology, and anything related"
   author: "Nauval Atmaja"
   gaid: "UA-58073141-1"
   aboutme: "<p>I like building/crafting things. I code for living. I blog in my

@@ -11,6 +11,9 @@
   }
   .sidebar {
     width: 30%;
+    .aboutme {
+      margin: 10rem 2rem 0;
+    }
   }
   .pagination {
     .newer {
@@ -33,6 +36,11 @@
 @media (max-width: 767px) {
   .sidebar {
     border-top: 0px;
+    .header {
+      h2.brand-tagline {
+        margin: 0 5px;
+      }
+    }
     .aboutme {
       display: none;
     }
