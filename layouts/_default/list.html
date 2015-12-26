@@ -44,7 +44,7 @@
 	      					<div class="post-tags">
 					        {{ $Site := .Site }}
 	      					{{ range .Params.tags }}
-						        <a class="post-tag post-tag-{{ . | urlize }}" href="{{ $Site.BaseURL}}/tags/{{ . | urlize }}">{{ . }}</a>
+						        <a class="post-tag post-tag-{{ . | urlize }}" href="/tags/{{ . | urlize }}">{{ . }}</a>
 	      					{{ end }}
 	      					</div>
 	      				{{ end }}

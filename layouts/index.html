@@ -46,7 +46,7 @@
                     <div class="post-tags">
                       <i class="fa fa-tags fa-1"></i>
                       {{ range .Params.tags }}
-                        <a class="post-tag post-tag-{{ . | urlize }}" href="{{ $Site.BaseURL }}/tags/{{ . | urlize }}">{{ . }}</a>
+                        <a class="post-tag post-tag-{{ . | urlize }}" href="/tags/{{ . | urlize }}">{{ . }}</a>
                       {{ end }}
                     </div>
                   {{ end }}
