@@ -26,6 +26,7 @@
     }
     .paging-newer, .paging-older {
       width: 50% !important;
+      margin: 2rem 0;
     }
     .paging-older {
       display: inline-block;
@@ -72,4 +73,12 @@
     }
   }
 
+  /* Pagination */
+  .paging {
+    // Make a clear separation between the two
+    // navigation links
+    .paging-newer, .paging-older {
+      margin-bottom: .5rem;
+    }
+  }
 }

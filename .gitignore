@@ -75,3 +75,4 @@ $RECYCLE.BIN/
 
 ####==== Hugo ====####
 themes
+static/css/custom.css
