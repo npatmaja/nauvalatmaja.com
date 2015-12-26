@@ -1,0 +1,84 @@
+/* Responsive */
+@media (min-width: 48rem) {
+  .wrapper {
+    margin-left: 5%;
+    width: 75%;
+    letter-spacing: 0.7px;
+  }
+  section.post {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+  }
+  .sidebar {
+    width: 30%;
+    .aboutme {
+      margin: 10rem 2rem 0;
+    }
+  }
+  .pagination {
+    .newer {
+      right: 15rem;
+    }
+  }
+  .paging {
+    .paging-newer {
+      display: inline-block;
+    }
+    .paging-newer, .paging-older {
+      width: 50% !important;
+      margin: 2rem 0;
+    }
+    .paging-older {
+      display: inline-block;
+      float: left;
+    }
+  }
+}
+@media (max-width: 767px) {
+
+  /* Sidebar */
+  .sidebar {
+    // Remove the thin accent line
+    border-top: 0px;
+    .header {
+      h2.brand-tagline {
+        margin: 0 5px;
+      }
+    }
+  }
+
+  /* Content */
+  .content {
+    // Remove the thin accent line
+    border-top: 0px;
+  }
+
+  /* Post */
+  .post {
+    .post-header {
+      // Make title font size smaller when on
+      // device
+      h1.post-title {
+        font-size: $post-title-size-small;
+      }
+    }
+  }
+
+  /* Atuthor */
+  .aboutme {
+    // Not showing author's avatar when
+    // showing on devices
+    img {
+      display: none;
+    }
+  }
+
+  /* Pagination */
+  .paging {
+    // Make a clear separation between the two
+    // navigation links
+    .paging-newer, .paging-older {
+      margin-bottom: .5rem;
+    }
+  }
+}

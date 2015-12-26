@@ -1,0 +1,27 @@
+.section {
+  #list {
+    list-style: none;
+    display: block;
+    margin: 0 .5rem;
+    padding: 0;
+    li {
+      display: table;
+      width: 100%;
+      .meta {
+        display: table-cell;
+        text-align: right;
+        width: 25%;
+      }
+      a {
+        display: table-cell;
+        text-decoration: none;
+        padding: 0 .5rem;
+      }
+      a:hover {
+        text-decoration: none;
+        background: $section-a-hover-bg;
+        border-radius: 3px;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+section.aboutme {
+  margin: 2rem 0 0 0;
+  padding: 5px 1rem;
+  background: $about-bg;
+  img {
+    float: right;
+    margin: 1.5rem .5rem;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+  }
+  h1, h2, h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 300;
+  }
+  p {
+    line-height: 1.3rem;
+    letter-spacing: 0.04rem;
+
+    a, a:hover {
+      font-weight: bold;
+    }
+  }
+}

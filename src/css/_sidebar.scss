@@ -1,0 +1,24 @@
+/* Sidebar */
+.sidebar {
+  border-top: 1px solid $sidebar-top-border;
+  background-color: $sidebar-bg;
+
+  a.title {
+    text-decoration: none;
+  }
+  a {
+    color: $sidebar-fg-a;
+  }
+  h1.brand-title {
+  	font-size: 2rem;
+  }
+  h2.brand-tagline {
+  	font-size: 1rem;
+  }
+  h1.brand-title, h2.brand-tagline {
+    color: $sidebar-fg-title;
+  }
+  .social-buttons a {
+    margin-left: 5px;
+  }
+}

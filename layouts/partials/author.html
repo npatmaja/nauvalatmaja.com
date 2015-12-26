@@ -1,0 +1,8 @@
+{{ if .Site.Params.aboutme }}
+  <section class="aboutme">
+    {{ if .Site.Params.avatar}}
+      <img src="{{.Site.Params.avatar}}">
+    {{ end }}
+    {{ .Site.Params.aboutme | safeHTML}}
+  </section>
+{{ end }}

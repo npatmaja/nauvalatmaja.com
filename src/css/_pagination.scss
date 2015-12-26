@@ -1,0 +1,40 @@
+/* Pagination */
+.pagination {
+  border-top: 1px solid $pagin-border;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+
+  a {
+    color: $pagin-a;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $pagin-a-hover;
+    text-decoration: none;
+  }
+  .newer {
+    position: absolute;
+    right: 1rem;
+  }
+}
+
+/* Page Pagination */
+.paging {
+  margin: 1rem 0;
+  .paging-newer, .paging-older {
+    font-size: 1.2rem;
+  }
+  .paging-newer {
+    text-align: right;
+    right: 1rem;
+  }
+  a {
+    color: $pagin-a;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $pagin-a-hover;
+    text-decoration: none;
+  }
+}

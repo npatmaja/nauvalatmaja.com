@@ -1,0 +1,177 @@
+html, p, nav, section, article {
+  font-weight: 300;
+  font-family: 'open sans', sans-serif; }
+
+/* Content */
+.content {
+  border-top: 1px solid #E54028; }
+
+/* Post */
+.post .post-header h1.post-title {
+  font-size: 2.8rem;
+  line-height: 1.1; }
+
+/* Sidebar */
+.sidebar {
+  border-top: 1px solid #800080;
+  background-color: white; }
+  .sidebar a.title {
+    text-decoration: none; }
+  .sidebar a {
+    color: #333333; }
+  .sidebar h1.brand-title {
+    font-size: 2rem; }
+  .sidebar h2.brand-tagline {
+    font-size: 1rem; }
+  .sidebar h1.brand-title, .sidebar h2.brand-tagline {
+    color: #333333; }
+  .sidebar .social-buttons a {
+    margin-left: 5px; }
+
+/* Pagination */
+.pagination {
+  border-top: 1px solid #AEAEAE;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem; }
+  .pagination a {
+    color: #333333;
+    text-decoration: none; }
+  .pagination a:hover {
+    color: #E54028;
+    text-decoration: none; }
+  .pagination .newer {
+    position: absolute;
+    right: 1rem; }
+
+/* Page Pagination */
+.paging {
+  margin: 1rem 0; }
+  .paging .paging-newer, .paging .paging-older {
+    font-size: 1.2rem; }
+  .paging .paging-newer {
+    text-align: right;
+    right: 1rem; }
+  .paging a {
+    color: #333333;
+    text-decoration: none; }
+  .paging a:hover {
+    color: #E54028;
+    text-decoration: none; }
+
+/* Post */
+.post-tags .fa-tags {
+  font-size: small; }
+.post-tags .post-tag {
+  clear: left;
+  margin: 0 0.1rem;
+  padding: 0 0.2rem;
+  color: #333333;
+  border-bottom: 1px solid #800080;
+  font-size: 0.95rem;
+  border-radius: 2px; }
+.post-tags a.post-tag {
+  text-decoration: none; }
+.post-tags a.post-tag:hover {
+  color: #E54028;
+  text-decoration: none; }
+
+/* TOC */
+#TableOfContents ul {
+  padding: 0px 0 0 20px; }
+
+.section #list {
+  list-style: none;
+  display: block;
+  margin: 0 .5rem;
+  padding: 0; }
+  .section #list li {
+    display: table;
+    width: 100%; }
+    .section #list li .meta {
+      display: table-cell;
+      text-align: right;
+      width: 25%; }
+    .section #list li a {
+      display: table-cell;
+      text-decoration: none;
+      padding: 0 .5rem; }
+    .section #list li a:hover {
+      text-decoration: none;
+      background: #EAEDED;
+      border-radius: 3px; }
+
+.footer p {
+  margin: 0 auto;
+  width: 90%; }
+  .footer p a {
+    color: #3498db; }
+
+.clear {
+  clear: both; }
+
+section.aboutme {
+  margin: 2rem 0 0 0;
+  padding: 5px 1rem;
+  background: #EAEDED; }
+  section.aboutme img {
+    float: right;
+    margin: 1.5rem .5rem;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%; }
+  section.aboutme h1, section.aboutme h2, section.aboutme h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 300; }
+  section.aboutme p {
+    line-height: 1.3rem;
+    letter-spacing: 0.04rem; }
+    section.aboutme p a, section.aboutme p a:hover {
+      font-weight: bold; }
+
+/* Responsive */
+@media (min-width: 48rem) {
+  .wrapper {
+    margin-left: 5%;
+    width: 75%;
+    letter-spacing: 0.7px; }
+
+  section.post {
+    font-size: 1.2rem;
+    line-height: 2.2rem; }
+
+  .sidebar {
+    width: 30%; }
+    .sidebar .aboutme {
+      margin: 10rem 2rem 0; }
+
+  .pagination .newer {
+    right: 15rem; }
+
+  .paging .paging-newer {
+    display: inline-block; }
+  .paging .paging-newer, .paging .paging-older {
+    width: 50% !important; }
+  .paging .paging-older {
+    display: inline-block;
+    float: left; } }
+@media (max-width: 767px) {
+  /* Sidebar */
+  .sidebar {
+    border-top: 0px; }
+    .sidebar .header h2.brand-tagline {
+      margin: 0 5px; }
+
+  /* Content */
+  .content {
+    border-top: 0px; }
+
+  /* Post */
+  .post .post-header h1.post-title {
+    font-size: 2rem; }
+
+  /* Atuthor */
+  .aboutme img {
+    display: none; } }
+
+/*# sourceMappingURL=custom.css.map */

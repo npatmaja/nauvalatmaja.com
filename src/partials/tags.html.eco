@@ -1,6 +1,0 @@
----
-cacheable: false
----
-<% for tag in @tags: %>
-  <%- "<a href='#{@getTagUrl(tag)}'>#{tag}</a>" %>
-<% end %>
