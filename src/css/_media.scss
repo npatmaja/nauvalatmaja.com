@@ -1,0 +1,50 @@
+/* Responsive */
+@media (min-width: 48rem) {
+  .wrapper {
+    margin-left: 5%;
+    width: 75%;
+    letter-spacing: 0.7px;
+  }
+  section.post {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+  }
+  .sidebar {
+    width: 30%;
+  }
+  .pagination {
+    .newer {
+      right: 15rem;
+    }
+  }
+  .paging {
+    .paging-newer {
+      display: inline-block;
+    }
+    .paging-newer, .paging-older {
+      width: 50% !important;
+    }
+    .paging-older {
+      display: inline-block;
+      float: left;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .sidebar {
+    border-top: 0px;
+    .aboutme {
+      display: none;
+    }
+  }
+  .content {
+    border-top: 0px;
+  }
+  .post {
+    .post-header {
+      h1.post-title {
+        font-size: $post-title-size-small;
+      }
+    }
+  }
+}

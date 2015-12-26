@@ -1,0 +1,8 @@
+<div class="pagination">
+  {{ if .Paginator.HasPrev }}
+    <a class="newer" href="{{ .Paginator.Prev.URL }}">Newer <i class='fa fa-arrow-circle-o-right'></i></a>
+  {{ end }}
+  {{ if .Paginator.HasNext }}
+    <a class="older" href="{{ .Paginator.Next.URL }}"><i class='fa fa-arrow-circle-o-left'></i> Older</a>
+  {{ end }}
+</div>

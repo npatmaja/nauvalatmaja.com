@@ -73,3 +73,5 @@ $RECYCLE.BIN/
 .sass-cache
 *.css.map
 
+####==== Hugo ====####
+themes

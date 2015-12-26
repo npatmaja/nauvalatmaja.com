@@ -1,0 +1,40 @@
+/* Sidebar */
+.sidebar {
+  border-top: 1px solid $sidebar-top-border;
+  background-color: $sidebar-bg;
+
+  a.title {
+    text-decoration: none;
+  }
+  a {
+    color: $sidebar-fg-a;
+  }
+  h1.brand-title {
+  	font-size: 2rem;
+  }
+  h2.brand-tagline {
+  	font-size: 0.8rem;
+  }
+  h1.brand-title, h1.brand-tagline {
+    color: $sidebar-fg-title;
+  }
+
+  .aboutme {
+    text-align: right;
+    margin: 0 2rem 0;
+    h1, h2, h3 {
+      font-family: 'Libre Baskerville', serif;
+      font-weight: 300;
+      color: $sidebar-fg-title;
+    }
+    p {
+      color: $sidebar-fg-title;
+      line-height: 1.5rem;
+      letter-spacing: 0.04rem;
+
+      a, a:hover {
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+/* Post */
+.post-tags {
+  .fa-tags {
+    font-size: small;
+  }
+  .post-tag {
+  	clear: left;
+    margin: 0 0.1rem;
+    padding: 0 0.2rem;
+    color: $tag-fg;
+    border-bottom: 1px solid $tag-border-bottom;
+    font-size: 0.95rem;
+    border-radius: 2px;
+  }
+  a.post-tag {
+  	text-decoration: none;
+  }
+  a.post-tag:hover {
+  	color: $tag-a-hover;
+  	text-decoration: none;
+  }
+}

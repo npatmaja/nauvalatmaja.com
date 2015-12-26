@@ -1,0 +1,17 @@
+/* Content */
+.content {
+  border-top: 1px solid $content-top-border;
+}
+
+/* Post */
+$post-title-size: 2.8rem;
+$post-title-size-small: 2rem;
+
+.post {
+  .post-header {
+    h1.post-title {
+      font-size: $post-title-size;
+      line-height: 1.1;
+    }
+  }
+}

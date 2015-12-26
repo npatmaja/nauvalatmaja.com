@@ -1,0 +1,34 @@
+---
+baseurl: "http://nauvalatmaja.com/"
+languageCode: "en-us"
+title: "nauval atmaja"
+paginate: 5
+disqusShortName: 'nauvalatmaja'
+MetaDataFormat: "yaml"
+permalinks:
+  post: /:year/:month/:day/:title/
+params:
+  sidebartitle: "nauval atmaja"
+  author: "Nauval Atmaja"
+  gaid: "UA-58073141-1"
+  aboutme: "<p>I like building/crafting things. I code for living. I blog in my
+    spare time.</p>
+    <p>Have a look around and don't hesitate to
+    <a href=\"mailto:nauval.atmaja@gmail.com\">contact me</a> with any comments,
+    suggestions or even to just say Hi!</p>"
+menu:
+  main:
+    - Name: "archives"
+      Identifier: "archives"
+      URL: "/post/"
+  social:
+    - pre: "<i class='fa fa-github fa-2x'></i>"
+      url: "http://www.github.com/npatmaja"
+      identifier: "github"
+    - pre: "<i class='fa fa-linkedin-square fa-2x'></i>"
+      url: "https://id.linkedin.com/in/nauvalatmaja/"
+      identifier: "linkedin"
+    - pre: "<i class='fa fa-twitter fa-2x'></i>"
+      url: "http://www.twitter.com/novalpas"
+      identifier: "twitter"
+---
