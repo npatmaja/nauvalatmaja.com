@@ -30,10 +30,7 @@ step-deploy-after-build:
 	cp -r ${TEMP_DIR}/.git ${PUB_DIR} && cp ${TEMP_DIR}/.gitignore ${PUB_DIR}
 
 step-deploy-commit-push:
-	pushd ${PUB_DIR} > /dev/null
-	git add -A
-	git commit -m "`date`"
-	git push origin master
-	popd > /dev/null
+	pushd ${PUB_DIR} > /dev/null && git add -A && \
+	git commit -m "`date`" && git push -f origin master && popd > /dev/null
 
-deploy: clean step-deploy-prepare-dirs build step-deploy-after-build step-deploy-commit-push
+deploy: clean step-deploy-prepare-dirs build step-deploy-after-build step-deploy-commit-push clean
