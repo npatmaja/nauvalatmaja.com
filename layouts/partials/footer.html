@@ -1,0 +1,19 @@
+<section class="footer">
+	<div class="pure-menu pure-menu-horizontal pure-menu-open">
+		<ul class="footer-menu">
+		{{ range .Site.Menus.footer }}
+			<li><a href="{{.URL}}">{{ .Name }}</a></li>
+		{{ end }}
+		</ul>
+	</div>
+	<p>
+		{{ $author := .Site.Params.author }}
+		{{ with .Site.Params.Copyright }}
+			{{ . | safeHTML }}
+		{{ else }}
+			&copy; 2014-{{.Now.Format "2006"}} {{ $author }}.
+			<a href="http://creativecommons.org/licenses/by/3.0/">Some rights reserved</a>;
+			please attribute properly and link back. Powered by <a href="http://gohugo.io/">Hugo</a>.
+			Theme based on <a href="https://github.com/tmaiaroto/hugo-redlounge">hugo-redlougne</a>.
+		{{end}}</p>
+</section>

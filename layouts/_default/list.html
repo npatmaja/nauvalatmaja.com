@@ -23,7 +23,7 @@
 	            <p class="post-meta">
 	            	{{ if not .Params.nodate }}
 			          <span class="post-date">
-			            <span class="post-date-day"><sup>{{ .Date.Format "2" }}</sup></span><span class="post-date-separator">/</span><span class="post-date-month">{{ .Date.Format "Jan" }}</span> <span class="post-date-year">{{ .Date.Format "2006" }}</span>
+			            <span class="post-date-day"><span class="post-date-month">{{ .Date.Format "Jan 2, 2006" }}</span> </span>
 			          </span>
 	      				{{ end }}
 	      				{{ if not .Params.noauthor }}
@@ -58,7 +58,7 @@
 	          </section>
 	        {{ end }}
 	      </div>
-
+				{{ partial "author.html" . }}
 	      {{ partial "footer.html" . }}
 			</div>
     </div>

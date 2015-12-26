@@ -34,25 +34,42 @@
   }
 }
 @media (max-width: 767px) {
+
+  /* Sidebar */
   .sidebar {
+    // Remove the thin accent line
     border-top: 0px;
     .header {
       h2.brand-tagline {
         margin: 0 5px;
       }
     }
-    .aboutme {
-      display: none;
-    }
   }
+
+  /* Content */
   .content {
+    // Remove the thin accent line
     border-top: 0px;
   }
+
+  /* Post */
   .post {
     .post-header {
+      // Make title font size smaller when on
+      // device
       h1.post-title {
         font-size: $post-title-size-small;
       }
     }
   }
+
+  /* Atuthor */
+  .aboutme {
+    // Not showing author's avatar when
+    // showing on devices
+    img {
+      display: none;
+    }
+  }
+
 }

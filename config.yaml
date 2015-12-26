@@ -11,8 +11,9 @@ params:
   sidebartitle: "nauval atmaja"
   sidebartagline: "Thoughts on software, product, technology, and anything related"
   author: "Nauval Atmaja"
+  avatar: "/img/avatar.png"
   gaid: "UA-58073141-1"
-  aboutme: "<p>I like building/crafting things. I code for living. I blog in my
+  aboutme: "<p>Hello, my name is Nauval. I like building/crafting things. I code for living. I blog in my
     spare time.</p>
     <p>Have a look around and don't hesitate to
     <a href=\"mailto:nauval.atmaja@gmail.com\">contact me</a> with any comments,
@@ -32,4 +33,7 @@ menu:
     - pre: "<i class='fa fa-twitter fa-2x'></i>"
       url: "http://www.twitter.com/novalpas"
       identifier: "twitter"
+    - pre: "<i class='fa fa-wordpress fa-2x'></i>"
+      url: "https://noval78.wordpress.com/"
+      identifier: "wordpress"
 ---

@@ -18,23 +18,7 @@
   h1.brand-title, h2.brand-tagline {
     color: $sidebar-fg-title;
   }
-
-  .aboutme {
-    text-align: right;
-    margin: 20px 2rem 0;
-    h1, h2, h3 {
-      font-family: 'Libre Baskerville', serif;
-      font-weight: 300;
-      color: $sidebar-fg-title;
-    }
-    p {
-      color: $sidebar-fg-title;
-      line-height: 1.5rem;
-      letter-spacing: 0.04rem;
-
-      a, a:hover {
-        font-weight: bold;
-      }
-    }
+  .social-buttons a {
+    margin-left: 5px;
   }
 }

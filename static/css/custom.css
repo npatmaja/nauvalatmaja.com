@@ -25,19 +25,8 @@ html, p, nav, section, article {
     font-size: 1rem; }
   .sidebar h1.brand-title, .sidebar h2.brand-tagline {
     color: #333333; }
-  .sidebar .aboutme {
-    text-align: right;
-    margin: 20px 2rem 0; }
-    .sidebar .aboutme h1, .sidebar .aboutme h2, .sidebar .aboutme h3 {
-      font-family: 'Libre Baskerville', serif;
-      font-weight: 300;
-      color: #333333; }
-    .sidebar .aboutme p {
-      color: #333333;
-      line-height: 1.5rem;
-      letter-spacing: 0.04rem; }
-      .sidebar .aboutme p a, .sidebar .aboutme p a:hover {
-        font-weight: bold; }
+  .sidebar .social-buttons a {
+    margin-left: 5px; }
 
 /* Pagination */
 .pagination {
@@ -121,6 +110,25 @@ html, p, nav, section, article {
 .clear {
   clear: both; }
 
+section.aboutme {
+  margin: 2rem 0 0 0;
+  padding: 5px 1rem;
+  background: #EAEDED; }
+  section.aboutme img {
+    float: right;
+    margin: 1.5rem .5rem;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%; }
+  section.aboutme h1, section.aboutme h2, section.aboutme h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 300; }
+  section.aboutme p {
+    line-height: 1.3rem;
+    letter-spacing: 0.04rem; }
+    section.aboutme p a, section.aboutme p a:hover {
+      font-weight: bold; }
+
 /* Responsive */
 @media (min-width: 48rem) {
   .wrapper {
@@ -148,17 +156,22 @@ html, p, nav, section, article {
     display: inline-block;
     float: left; } }
 @media (max-width: 767px) {
+  /* Sidebar */
   .sidebar {
     border-top: 0px; }
     .sidebar .header h2.brand-tagline {
       margin: 0 5px; }
-    .sidebar .aboutme {
-      display: none; }
 
+  /* Content */
   .content {
     border-top: 0px; }
 
+  /* Post */
   .post .post-header h1.post-title {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+
+  /* Atuthor */
+  .aboutme img {
+    display: none; } }
 
 /*# sourceMappingURL=custom.css.map */
