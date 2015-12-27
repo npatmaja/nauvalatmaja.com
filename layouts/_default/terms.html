@@ -8,17 +8,17 @@
 				<a name="top"></a>
 	      {{ partial "listtop.html" . }}
 
-	      <div class="posts">
+	      <div class="taxonomy">
           <div>
             <h1 id="title">{{ .Title }}</h1>
             {{ $data := .Data }}
             {{ $site := .Site}}
             {{ range $key,$value := .Data.Terms.ByCount }}
               <h2>
-                <a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}">
+                <a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}" class="term">
                   {{ $value.Name }}
                 </a>
-                {{ $value.Count }}
+								<span class="term-count">{{ $value.Count }}</span>
               </h2>
             {{ end }}
           </div>

@@ -23,6 +23,12 @@ menu:
     - Name: "archives"
       Identifier: "archives"
       URL: "/post/"
+    - Name: "categories"
+      Identifier: "categories"
+      URL: "/categories/"
+    - Name: "series"
+      Identifier: "series"
+      URL: "/series/"
   social:
     - pre: "<i class='fa fa-github fa-2x'></i>"
       url: "http://www.github.com/npatmaja"

@@ -28,6 +28,27 @@ html, p, nav, section, article {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px; }
 
+/* Metas */
+.post-tags .fa-tags {
+  font-size: small; }
+.post-tags .post-tag {
+  clear: left;
+  margin: 0 0.1rem;
+  padding: 0 0.2rem;
+  color: #333333;
+  border-bottom: 1px solid #800080;
+  font-size: 0.95rem;
+  border-radius: 2px; }
+.post-tags a.post-tag {
+  text-decoration: none; }
+.post-tags a.post-tag:hover {
+  color: #E54028;
+  text-decoration: none; }
+
+.post-categories .post-category {
+  background: #800080;
+  border-radius: 3px; }
+
 /* Sidebar */
 .sidebar {
   border-top: 1px solid #800080;
@@ -76,22 +97,22 @@ html, p, nav, section, article {
     color: #E54028;
     text-decoration: none; }
 
-/* Post */
-.post-tags .fa-tags {
-  font-size: small; }
-.post-tags .post-tag {
-  clear: left;
-  margin: 0 0.1rem;
-  padding: 0 0.2rem;
+.taxonomy h2 .term {
+  text-decoration: none;
   color: #333333;
-  border-bottom: 1px solid #800080;
-  font-size: 0.95rem;
-  border-radius: 2px; }
-.post-tags a.post-tag {
-  text-decoration: none; }
-.post-tags a.post-tag:hover {
-  color: #E54028;
-  text-decoration: none; }
+  background: #EAEDED;
+  padding: 0 1rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px; }
+.taxonomy .term-count {
+  background: #800080;
+  color: white;
+  margin-left: 1rem;
+  padding: 5px 12px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%; }
 
 /* TOC */
 #TableOfContents ul {
