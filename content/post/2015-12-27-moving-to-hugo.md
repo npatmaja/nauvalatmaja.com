@@ -164,10 +164,14 @@ rm -rf tmp
 # Automation
 What I did next is to automate repetitive tasks such as deployment steps above, which is quite lengthy and prone to errors.
 For this project
-I decided to use [gnu][gnu] [make][make] as the build tool
----I used this
-[bash script][deploy] when dealing with Docpad previously.
-Besides deployment, I created tasks for [creating new post, generate static sites, clean the working directory And GitHub-Pages deployment setup][mymake].
+I decided to use [GNU][gnu] [Make][make] as the build tool
+--- I used this
+[bash script][deploy] when dealing with Docpad previously. But, why Make?
+Why not! Make has similar capabilities with other recent build tools
+like Cake, Gulp or Grunt. Moreover, my machine has it pre-installed.
+Currently, I'm still novice in Make, hence my terrible looking  [Makefile][mymake]. Following this, I plan to use Make at my office
+as the build tools of the project I'm working on. Hope I can be more
+proficient along the time.
 
 {{< sectionsign >}}
 

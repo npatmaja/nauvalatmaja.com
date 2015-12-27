@@ -54,7 +54,7 @@ deploy: clean step-deploy-prepare-dirs build step-deploy-after-build step-deploy
 step-commit-push-post:
 	cd ${CURR_DIR}
 	git add -A
-	git commit -m "Add new post `date`"
+	git commit -m "Add new/edit post `date`"
 	git push origin master
 
 deploy-post: deploy step-commit-push-post clean
