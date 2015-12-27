@@ -36,4 +36,8 @@ menu:
     - pre: "<i class='fa fa-wordpress fa-2x'></i>"
       url: "https://noval78.wordpress.com/"
       identifier: "wordpress"
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  series: "series"
 ---

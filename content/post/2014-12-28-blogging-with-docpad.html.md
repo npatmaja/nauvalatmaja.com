@@ -2,6 +2,7 @@
 title: "Blogging with Docpad"
 date: 2014-12-28
 tags: [blog, docpad, node.js]
+categories: [Web]
 socialsharing: true
 totop: true
 ---

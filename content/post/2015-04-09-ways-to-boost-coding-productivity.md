@@ -2,6 +2,7 @@
 title: "Ways to Boost Coding Productivity"
 date: "2015-04-09"
 tags: [code, productivity, tips]
+categories: [Productivity]
 socialsharing: true
 totop: true
 ---

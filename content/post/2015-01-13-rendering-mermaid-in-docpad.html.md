@@ -2,6 +2,7 @@
 title: "Rendering Mermaid in Docpad"
 date: 2015-01-13
 tags: [Mermaid, DocPad, Marked, docpad-plugin-marked]
+categories: [Web]
 socialsharing: true
 totop: true
 ---

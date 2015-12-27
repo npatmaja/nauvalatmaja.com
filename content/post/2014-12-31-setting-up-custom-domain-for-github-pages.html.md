@@ -2,6 +2,7 @@
 title: "Setting Up Custom Domain for GitHub Pages"
 date: 2014-12-31
 tags: ["GitHub Pages", "custom domain", NameCheap, CloudFlare]
+categories: [Web]
 socialsharing: true
 totop: true
 ---

@@ -1,7 +1,8 @@
 ---
 title: "Rendering Backbone (Sub)View"
 date: 2014-12-29
-tags: [code, productivity, tips]
+tags: [code, Backbone, subview, Backbone view]
+categories: [Development, Web]
 socialsharing: true
 totop: true
 ---

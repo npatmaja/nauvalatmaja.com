@@ -1,7 +1,8 @@
 ---
 title: "Android Development with Genymotion"
 date: 2015-01-08
-tags: [code, productivity, tips]
+tags: [code, Android, java, Genymotion]
+categories: [Development]
 socialsharing: true
 totop: true
 ---

@@ -2,6 +2,7 @@
 title: "Upload Files with Backbone.js, Node.js and express 4.x"
 date: 2015-01-30
 tags: [Node.js, express, Backbone.js, upload, multer, "Backbone Fundamentals"]
+categories: [Web, Developmnet]
 socialsharing: true
 totop: true
 ---
