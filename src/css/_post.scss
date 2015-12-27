@@ -14,4 +14,14 @@ $post-title-size-small: 2rem;
       line-height: 1.1;
     }
   }
+
+  // Inline code
+  p code {
+    padding: 0 3px;
+    background: $lighter-grey;
+    color: $main-red;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+  }
 }

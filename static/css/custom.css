@@ -1,3 +1,13 @@
+/* All Icons are from htmlarrow.com */
+.hta-left-white-arrow::before {
+  content: "\21E6"; }
+
+.hta-right-white-arrow::before {
+  content: "\21E8"; }
+
+.clear {
+  clear: both; }
+
 html, p, nav, section, article {
   font-weight: 300;
   font-family: 'open sans', sans-serif; }
@@ -10,6 +20,13 @@ html, p, nav, section, article {
 .post .post-header h1.post-title {
   font-size: 2.8rem;
   line-height: 1.1; }
+.post p code {
+  padding: 0 3px;
+  background: #EAEDED;
+  color: #E54028;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px; }
 
 /* Sidebar */
 .sidebar {
@@ -107,9 +124,6 @@ html, p, nav, section, article {
   width: 90%; }
   .footer p a {
     color: #3498db; }
-
-.clear {
-  clear: both; }
 
 section.aboutme {
   margin: 2rem 0 0 0;

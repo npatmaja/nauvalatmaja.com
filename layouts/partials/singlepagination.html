@@ -1,0 +1,21 @@
+{{ if not .Params.nopaging }}
+  <div class="paging">
+    <span class="paging-label">More Reading</span>
+    <div class="clear"></div>
+    {{ if .Next }}
+      <div class="paging-older">
+        <a class="paging-link" href="{{ .Next.RelPermalink }}">
+          <i class="fa hta-left-white-arrow"></i> {{ .Next.Title  }}
+        </a>
+      </div>
+    {{ end }}
+
+    {{ if .Prev }}
+      <div class="paging-newer">
+        <a class="paging-link" href="{{ .Prev.RelPermalink }}">
+          {{ .Prev.Title }} <i class="fa hta-right-white-arrow"></i>
+        </a>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}
