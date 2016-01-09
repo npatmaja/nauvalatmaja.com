@@ -7,18 +7,18 @@ PUB_DIR = public
 .PHONY: build post clean
 
 build-css:
-	scss src/css/custom.scss static/css/custom.css
+	@scss src/css/custom.scss static/css/custom.css
 watch-css:
-	scss --watch src/css/custom.scss:static/css/custom.css
+	@scss --watch src/css/custom.scss:static/css/custom.css
 build:
-	hugo -t redlounge
+	@hugo -t redlounge
 post:
-	hugo new post/${CURR_DATE}-${title}.md
+	@hugo new post/${CURR_DATE}-${title}.md
 serve:
-	hugo server -w --buildDrafts -t=redlounge --ignoreCache
+	@hugo server -w --buildDrafts -t=redlounge --ignoreCache
 
 clean:
-	rm -rf temp dev
+	@rm -rf temp dev
 
 # deployment setup,
 # make sure ${PUB_DIR} has been added to .gitignore.

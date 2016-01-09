@@ -165,6 +165,20 @@ section.aboutme {
     section.aboutme p a, section.aboutme p a:hover {
       font-weight: bold; }
 
+.wrapper404 {
+  margin: 0 auto;
+  margin-top: 10%;
+  text-align: center; }
+  .wrapper404 h1, .wrapper404 h2 {
+    font-family: 'Raleway','Helvetica','Arial',sans-serif;
+    font-weight: 300; }
+  .wrapper404 .header404 {
+    color: #800080; }
+  .wrapper404 .err-code {
+    font-size: 4rem;
+    margin: 1rem 0;
+    color: #E54028; }
+
 /* Responsive */
 @media (min-width: 48rem) {
   .wrapper {
@@ -213,6 +227,14 @@ section.aboutme {
 
   /* Pagination */
   .paging .paging-newer, .paging .paging-older {
-    margin-bottom: .5rem; } }
+    margin-bottom: .5rem; }
+
+  /* 404 */
+  .wrapper404 .robot404 {
+    width: 128px; }
+  .wrapper404 h1 {
+    font-size: 1.5rem; }
+  .wrapper404 h2 {
+    font-size: 1.3rem; } }
 
 /*# sourceMappingURL=custom.css.map */

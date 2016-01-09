@@ -1,0 +1,17 @@
+.wrapper404 {
+  margin: 0 auto;
+  margin-top: 10%;
+  text-align: center;
+  h1, h2 {
+    font-family: 'Raleway','Helvetica','Arial',sans-serif;
+    font-weight: 300;
+  }
+  .header404 {
+    color: $purple;
+  }
+  .err-code {
+    font-size: 4rem;
+    margin: 1rem 0;
+    color: $main-red;
+  }
+}
