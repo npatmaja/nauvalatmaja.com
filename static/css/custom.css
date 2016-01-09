@@ -28,6 +28,9 @@ html, p, nav, section, article {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px; }
 
+.draft-marker {
+  color: #800080; }
+
 /* Metas */
 .post-tags .fa-tags {
   font-size: small; }

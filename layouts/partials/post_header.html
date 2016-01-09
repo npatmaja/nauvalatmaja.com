@@ -5,6 +5,11 @@
     </div>
   {{ end }}
   <h1 class="post-title">
-    <a href="{{ .RelPermalink }}">{{ if .Draft}}{draft}{{end}} {{ .Title }}</a>
+    <a href="{{ .RelPermalink }}">
+      {{ if .Draft }}
+        <span class="draft-marker">{draft}</span>
+      {{ end }}
+      {{ .Title }}
+    </a>
   </h1>
 </header>

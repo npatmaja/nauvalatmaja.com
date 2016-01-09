@@ -5,6 +5,7 @@ tags: [code, Android, java, Genymotion]
 categories: [Development]
 socialsharing: true
 totop: true
+draft: true
 ---
 I am a noob in android development and one thing I am not
 comfortable with is the stock android device emulator.
