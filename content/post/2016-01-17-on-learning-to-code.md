@@ -38,7 +38,7 @@ days to work on it but to no avail. This is where perseverance play its part
 
 # Google is your best companion
 Well, it's not necessarily Google, any search engine will do. In fact, I use
-[duckduckgo][https://duckduckgo.com/] most of the time. Believe me, we are not
+[duckduckgo](https://duckduckgo.com/) most of the time. Believe me, we are not
 the only one who have the unsolved problems. A lot of programmers are struggling with the same problems as well and most of the case they have already have the answers. Hence a skill to search on a search engine is a
 necessity when programming.
 
