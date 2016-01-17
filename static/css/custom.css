@@ -52,6 +52,18 @@ html, p, nav, section, article {
   background: #800080;
   border-radius: 3px; }
 
+.series {
+  font-size: 1rem; }
+  .series ul {
+    margin: 0; }
+    .series ul li {
+      list-style: circle; }
+      .series ul li a, .series ul li a:hover {
+        color: #E54028;
+        text-decoration: none; }
+      .series ul li a:hover {
+        text-decoration: underline; }
+
 /* Sidebar */
 .sidebar {
   border-top: 1px solid #800080;

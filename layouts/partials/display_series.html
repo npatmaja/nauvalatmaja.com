@@ -1,0 +1,20 @@
+{{ if .Params.series }}
+  <section class="series">
+    {{ $name := index .Params.series 0 }}
+    {{ $link := .RelPermalink }}
+  	<span>Other posts in <b>{{$name}}</b> series:</span>
+    {{ $name := $name | urlize }}
+    {{ $series := index .Site.Taxonomies.series $name }}
+    <ul>
+    {{ range $series.Pages.ByDate }}
+    	<li>{{.Date.Format "Jan 02, 2006"}} -
+        {{ if eq $link .RelPermalink }}
+          {{.LinkTitle}}
+        {{ else }}
+    	    <a href="{{.RelPermalink}}">{{.LinkTitle}}</a>
+        {{ end }}
+      </li>
+    {{end}}
+    </ul>
+  </section>
+{{end}}

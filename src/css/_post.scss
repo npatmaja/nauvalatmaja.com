@@ -59,3 +59,20 @@ $post-title-size-small: 2rem;
   background: $category-bg;
   border-radius: 3px;
 }
+
+.series {
+  font-size: 1rem;
+  ul {
+    margin: 0;
+    li {
+      list-style: circle;
+      a, a:hover {
+        color: $tag-a-hover;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
