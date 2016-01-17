@@ -1,8 +1,7 @@
 ---
 categories: [Thought]
 date: 2016-01-17T20:20:12+07:00
-description: "Even with abundant resources, learning to
-code is still a formidable undertaking. Some will survive and not few won't"
+description: "Even with abundant resources, learning to code is still a formidable undertaking. Some will survive and not few won't"
 draft: false
 keywords: ["how to code", "programming"]
 series: []
