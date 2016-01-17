@@ -1,7 +1,8 @@
 ---
 categories: [Thought]
 date: 2016-01-17T20:20:12+07:00
-description: ""
+description: "Even with abundant resources, learning to
+code is still a formidable undertaking. Some will survive and not few won't"
 draft: false
 keywords: ["how to code", "programming"]
 series: []
@@ -21,8 +22,8 @@ I have done programming over a decade now. Compared to a decade earlier, now
 is relatively easier for someone to learn to code. A lot of [web apps][udemy]
 [built for][codeacademy] [this sole purpose][codeschool] available for either
 free or paid by subscription. Moreover, a zillion of tutorials, discussion board and online classes are available
-over the internet. However, even with aforementioned resources learning to
-code is still a formidable undertaking, some will survive and not few won't.
+over the internet. However, even with aforementioned resources, learning to
+code is still a formidable undertaking. Some will survive and not few won't.
 
 Though I code for living and done many years programming I find myself still
 learning to program and to have better craftmanship on programming. I've been
