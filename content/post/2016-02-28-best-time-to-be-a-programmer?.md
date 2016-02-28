@@ -1,6 +1,6 @@
 ---
 categories: [Thought]
-date: 2016-02-25T20:47:09+07:00
+date: 2016-02-28T20:47:09+07:00
 description: "Is this the best time to be a programmer in Indonesia?"
 draft: false
 keywords: ["programmer", "tech", "startups"]
