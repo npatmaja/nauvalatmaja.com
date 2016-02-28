@@ -27,6 +27,8 @@ html, p, nav, section, article {
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px; }
+.post p img {
+  width: 100%; }
 
 .draft-marker {
   color: #800080; }
