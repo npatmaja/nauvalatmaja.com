@@ -24,6 +24,11 @@ $post-title-size-small: 2rem;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
   }
+
+  // image
+  p img {
+    width: 100%;
+  }
 }
 
 .draft-marker {
