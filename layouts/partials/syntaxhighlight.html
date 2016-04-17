@@ -1,0 +1,6 @@
+  <!-- Syntax highlighting -->
+  {{ if isset .Site.Params "highlightStyle" }}
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/{{ .Site.Params.highlightStyle }}.min.css">
+  {{ else }}
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/tomorrow-night-bright.min.css">
+  {{ end }}
