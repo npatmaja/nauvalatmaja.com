@@ -127,8 +127,9 @@ https://play.golang.org/p/l0bKbeDQ8x
 Even though writing Go code in a more functional style is possible, however, Go is not a functional programming language. Hence, I'm still not convinced
 that writing Go program in a functional manner entirely is a good approach (if that is even possible), but I might be wrong.
 
-*Update*
-*[05/07/2017]*: Added the recursive version of compose as _Whargharbl_ mentioned.
+**Update**
+
+**[05/07/2017]**: Added the recursive version of compose as _Whargharbl_ mentioned.
 
 
 [wiki-logic-wiki]: https://en.wikipedia.org/wiki/Mathematical_logic
