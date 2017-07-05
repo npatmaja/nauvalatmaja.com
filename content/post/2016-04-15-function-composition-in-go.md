@@ -100,15 +100,35 @@ func compose(fns ...fnString) fnString {
 }
 ```
 
-As seen in the code, the functions are iterated by using for
+As seen in the code, the functions are iterated by using a `for` statement. Another
+way to loop over the functions is by recursion (as mentioned by _Whargharbl_) in the comment
+section.
+
+```
+func composeRec(fns ...fnString) fnString {
+	return func(s string) string {
+		f := fns[0]
+		fs := fns[1:len(fns)]
+
+		if len(fns) == 1 {
+			return f(s)
+		}
+
+		return f(composeRec(fs...)(s))
+	}
+}
+```
 
 The working example of the above function composition can be seen on
-http://play.golang.org/p/KUetm5b7zW
+https://play.golang.org/p/l0bKbeDQ8x
 
 {{< sectionsign >}}
 
 Even though writing Go code in a more functional style is possible, however, Go is not a functional programming language. Hence, I'm still not convinced
 that writing Go program in a functional manner entirely is a good approach (if that is even possible), but I might be wrong.
+
+*Update*
+*[05/07/2017]*: Added the recursive version of compose as _Whargharbl_ mentioned.
 
 
 [wiki-logic-wiki]: https://en.wikipedia.org/wiki/Mathematical_logic
