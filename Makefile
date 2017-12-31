@@ -30,7 +30,7 @@ setup-deploy:
 # Deployment steps
 # 1. Create temporary directory to put .git and .gitignore temporaryly
 step-deploy-prepare-dirs:
-	mkdir ${TEMP_DIR}
+	mkdir -p ${TEMP_DIR}
 	cp -r ${PUB_DIR}/.git ${TEMP_DIR} && cp ${PUB_DIR}/.gitignore ${TEMP_DIR}
 	rm -rf ${PUB_DIR}
 
