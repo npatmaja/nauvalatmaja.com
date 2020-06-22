@@ -11,11 +11,11 @@ build-css:
 watch-css:
 	@scss --watch src/css/custom.scss:static/css/custom.css
 build:
-	@hugo -t redlounge
+	@hugo -t hugo-redlounge
 post:
 	@hugo new post/${CURR_DATE}-${title}.md
 serve:
-	@hugo server -w --buildDrafts -t=redlounge --ignoreCache
+	@hugo server -w --buildDrafts -t=hugo-redlounge --ignoreCache
 
 clean:
 	@rm -rf temp dev

@@ -1,5 +1,5 @@
 ---
-Description: "Hugo is a static site generator created by Steve Francia using Golang. It is very fast, customizable and has a comprehensive documentation"
+summary: "Hugo is a static site generator created by Steve Francia using Golang. It is very fast, customizable and has a comprehensive documentation"
 Tags: [docpad, hugo, golang]
 categories: [Web]
 keywords: [golang, hugo, docpad, static site content generator, web, development]

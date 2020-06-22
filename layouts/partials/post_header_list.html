@@ -1,0 +1,15 @@
+<header class="post-header">
+  <h1 class="post-title">
+    <a href="{{ .RelPermalink }}">
+      {{ if .Draft }}
+        <span class="draft-marker">{draft}</span>
+      {{ end }}
+      {{ .Title }}
+    </a>
+  </h1>
+  {{ if .Params.subtitle }}
+  <h3 class="post-subtitle">
+    {{ .Params.subtitle }}
+  </h3>
+  {{ end }}
+</header>

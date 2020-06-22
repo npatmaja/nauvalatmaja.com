@@ -17,8 +17,54 @@ html, p, nav, section, article {
   border-top: 1px solid #E54028; }
 
 /* Post */
+.post-date {
+  font-family: 'open sans', sans-serif;
+  color: #7F1000; }
+
+.post-list {
+  line-height: 1.2rem;
+  margin-bottom: 4rem; }
+  .post-list .post-header h1.post-title {
+    font-size: 1.2rem;
+    line-height: 0.8; }
+    .post-list .post-header h1.post-title a:hover {
+      text-decoration: underline;
+      border-radius: 1px;
+      color: #AEAEAE; }
+  .post-list .post-header h3.post-subtitle {
+    font-size: 1.2rem; }
+  .post-list p.post-meta {
+    margin-top: 0.5rem; }
+  .post-list .post-summary {
+    font-family: 'Raleway', 'Helvetica', 'Arial', sans-serif;
+    line-height: 1.3rem; }
+  .post-list .post-date {
+    font-size: 0.6rem;
+    font-weight: 300; }
+    .post-list .post-date .post-date-day {
+      font-size: 0.7rem;
+      margin-right: 0px; }
+      .post-list .post-date .post-date-day .post-date-month {
+        font-size: 0.7rem; }
+  .post-list .post-tags .fa-purple {
+    color: #800080; }
+  .post-list .post-tags .fa-tags {
+    font-size: small; }
+  .post-list .post-tags .post-tag {
+    clear: left;
+    margin: 0px;
+    padding: 0px;
+    color: #333333;
+    border-bottom: 1px solid #800080;
+    font-size: 0.7rem;
+    border-radius: 1px; }
+
+.read-more-link {
+  margin-top: 1rem;
+  float: none; }
+
 .post .post-header h1.post-title {
-  font-size: 2.8rem;
+  font-size: 1.8rem;
   line-height: 1.1; }
 .post p code {
   padding: 0 3px;
@@ -236,7 +282,7 @@ section.aboutme {
 
   /* Post */
   .post .post-header h1.post-title {
-    font-size: 2rem; }
+    font-size: 1.2rem; }
 
   /* Atuthor */
   .aboutme img {

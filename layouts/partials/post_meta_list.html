@@ -1,0 +1,33 @@
+{{ $Site := .Site }}
+<p class="post-meta">
+  {{ if not .Params.nodate }}
+    <span class="post-date">
+      <i class="fa fa-calendar fa-1"></i>
+      <span class="post-date-day"><span class="post-date-month">{{ .Date.Format "Jan 2, 2006" }}</span> </span>
+    </span>
+  {{ end }}
+  {{ if not .Params.noauthor }}
+    {{ if .Params.author }}By <a class="post-author" {{ if .Params.authorlink }}href="{{ .Params.authorlink }}"{{ end }}>{{ .Params.author }}</a>{{ end }}
+  {{ end }}
+  {{ if not .Params.noread }}
+    <span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>{{.ReadingTime}} min. read</em></span>
+  {{ end }}
+  {{ if .Params.categories }}
+    <span>&nbsp;</span>
+    <span class="post-tags">
+      <i class="fa fa-folder fa-1 fa-purple"></i>
+      {{ range .Params.categories }}
+      <a class="post-tag post-tag-{{ . | urlize }}" href="/categories/{{ . | urlize }}">{{ . }}</a>
+      {{ end }}
+    </span>
+  {{ end }}
+  {{ if .Params.tags }}
+    <span>&nbsp;</span>
+    <span class="post-tags">
+      <i class="fa fa-tags fa-1 fa-purple"></i>
+      {{ range .Params.tags }}
+        <a class="post-tag post-tag-{{ . | urlize }}" href="/tags/{{ . | urlize }}">{{ . }}</a>
+      {{ end }}
+    </span>
+  {{ end }}
+</p>

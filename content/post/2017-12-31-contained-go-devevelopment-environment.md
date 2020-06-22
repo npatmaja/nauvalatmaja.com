@@ -1,5 +1,5 @@
 ---
-description: "A Self Contained golang development environment using Docker, vim and vim-go"
+summary: "A Self Contained golang development environment using Docker, vim and vim-go"
 date: 2017-12-31T15:18:16+07:00
 tags: [golang, development,	vim-go, docker]
 categories: [development, programming, productivity]

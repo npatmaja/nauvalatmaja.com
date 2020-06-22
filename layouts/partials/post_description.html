@@ -1,0 +1,8 @@
+{{ if .Params.summary }}
+<article class="post-summary">
+  {{ .Summary }}
+</article>
+<div class="read-more-link">
+  <a href="{{ .RelPermalink }}"></span>Read More</a>
+</div>
+{{ end }}
