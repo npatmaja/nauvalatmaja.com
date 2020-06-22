@@ -13,11 +13,10 @@ params:
   author: "Nauval Atmaja"
   avatar: "/img/avatar.png"
   gaid: "UA-58073141-1"
-  aboutme: "<p>Hello, my name is Nauval. I like building/crafting things. I code for living. I blog in my
+  aboutme: "<p>Hello, my name is Nauval. I code for living. I blog in my
     spare time.</p>
-    <p>Have a look around and don't hesitate to
-    <a href=\"mailto:nauval.atmaja@gmail.com\">contact me</a> with any comments,
-    suggestions or even to just say Hi!</p>"
+    <p>Have a look around and drop me an 
+    <a href=\"mailto:nauval.atmaja@gmail.com\">email</a> should you have any questions, feedback or just to say hi!</p>"
 menu:
   main:
     - Name: "archives"
