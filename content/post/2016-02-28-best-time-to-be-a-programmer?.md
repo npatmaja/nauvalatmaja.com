@@ -1,14 +1,13 @@
 ---
 categories: [Thought]
 date: 2016-02-28T20:47:09+07:00
-description: "Is this the best time to be a programmer in Indonesia?"
+summary: "Is this the best time to be a programmer in Indonesia?"
 draft: false
 keywords: ["programmer", "tech", "programmer's demand", "startups", "programming life", "indonesia"]
 series: []
 socialsharing: true
 tags: ["opinion", "startups", "programmer"]
 title: Time to be a Programmer
-subtitle: Is this the best time to be a programmer in Indonesia?
 totop: true
 ---
 ![Kid who codes](/img/kids-code.jpg)

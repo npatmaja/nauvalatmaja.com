@@ -1,7 +1,7 @@
 ---
 categories: [Programming, Development]
 date: 2016-04-15T07:40:17+07:00
-description: "How to write function composition in Go"
+summary: "How to write function composition in Go"
 draft: false
 keywords: ["programming", "go", "golang", "combinators", "function composition", "javascript", "composition"]
 series: []

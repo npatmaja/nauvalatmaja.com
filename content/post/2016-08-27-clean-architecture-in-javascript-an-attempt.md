@@ -1,7 +1,7 @@
 ---
 categories: [development, programming]
 date: 2016-08-27T21:40:14+07:00
-description: "An attempt to make server side JavaScript application's architecture cleaner using uncle Bob's The Clean Architecture concept"
+summary: "An attempt to make server side JavaScript application's architecture cleaner using uncle Bob's The Clean Architecture concept"
 draft: true
 keywords: [javascript, software, architecture, clean architecture, code, craftmanship]
 series: []

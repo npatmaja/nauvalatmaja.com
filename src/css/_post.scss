@@ -4,8 +4,80 @@
 }
 
 /* Post */
-$post-title-size: 2.8rem;
-$post-title-size-small: 2rem;
+$post-title-size: 1.8rem;
+$post-title-size-small: 1.2rem;
+
+.post-date {
+  font-family: 'open sans', sans-serif;
+  color: #7F1000;
+}
+
+// List in home
+.post-list {
+  line-height: 1.2rem;
+  margin-bottom: 4rem;
+  
+  .post-header {
+    h1.post-title {
+      font-size: $post-title-size-small;
+      line-height: 0.8;
+
+      a:hover {
+        text-decoration: underline;
+        border-radius: 1px;
+        color: $light-grey;
+      }
+    }
+    h3.post-subtitle {
+      font-size: $post-title-size-small;
+    }
+  }
+
+  p.post-meta {
+    margin-top: 0.5rem;
+  }
+  .post-summary {
+    font-family: 'Raleway', 'Helvetica', 'Arial', sans-serif;
+    line-height: 1.3rem;
+  }
+
+  .post-date {
+    font-size: 0.6rem;
+    font-weight: 300;
+
+    .post-date-day {
+      font-size: 0.7rem;
+      margin-right: 0px;
+
+      .post-date-month {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  .post-tags {
+    .fa-purple {
+      color: $category-bg;
+    }
+    .fa-tags {
+      font-size: small;
+    }
+    .post-tag {
+      clear: left;
+      margin: 0px;
+      padding: 0px;
+      color: $tag-fg;
+      border-bottom: 1px solid $tag-border-bottom;
+      font-size: 0.7rem;
+      border-radius: 1px;
+    }
+  }
+}
+
+.read-more-link {
+  margin-top: 1rem;
+  float: none;
+}
 
 .post {
   .post-header {
