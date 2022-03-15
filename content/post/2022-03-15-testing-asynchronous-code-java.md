@@ -144,7 +144,8 @@ On the other hand, _sampling_ requires the test to sample observable state.
 ### Listening: Capturing Notifications
 We will use the same `NotificationHandler` class to elaborate the detail of the _listening_ mechanism.
 As the name suggest, we need an object that captures events sent by the observed system, called `NotificationTrace` (see 
-[here](https://github.com/npryce/goos-code-examples/blob/master/testing-asynchronous-systems/src/book/example/async/notifications/NotificationTrace.java) for the original code). The class provide a method `append` that needs be
+[here](https://github.com/npryce/goos-code-examples/blob/master/testing-asynchronous-systems/src/book/example/async/notifications/NotificationTrace.java)
+for the original code). The class provides a method `append` that needs to be
 called by the observed system. The append process is wrapped by a `synchronized` block to make sure that no race
 condition occurred.
 The interesting part actually in the assertion method `NotificationTrace#containsNotificationIn` where it blocks the thread and
