@@ -1,3 +1,4 @@
+SHELL := /bin/bash
 GH_PAGES_REPO = git@github.com:npatmaja/npatmaja.github.io.git
 CURR_DATE = ${shell date +%F}
 CURR_DIR = ${shell pwd}
@@ -7,9 +8,9 @@ PUB_DIR = public
 .PHONY: build post clean
 
 build-css:
-	@scss src/css/custom.scss static/css/custom.css
+	@sass src/css/custom.scss static/css/custom.css
 watch-css:
-	@scss --watch src/css/custom.scss:static/css/custom.css
+	@sass --watch src/css/custom.scss:static/css/custom.css
 build:
 	@hugo -t hugo-redlounge
 post:
