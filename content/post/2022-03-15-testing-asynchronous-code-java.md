@@ -137,7 +137,7 @@ We can see from the log above that the tasks' actual execution are after the shu
 waits after all the tasks has been completed.
 
 ## Asycnronous code testing strategy
-There are two strategy mentioned in the last chapter of the book namely _listening_ and _sampling_.
+There are two strategies mentioned in the last chapter of the book namely _listening_ and _sampling_.
 _Listening_ means that the test should able to listen events that a systems sends out when executing asynchronous tasks.
 On the other hand, _sampling_ requires the test to sample observable state.
 
